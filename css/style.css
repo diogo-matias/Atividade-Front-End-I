@@ -113,6 +113,10 @@ span {
   font-size: 20px;
 }
 
+ol {
+  margin-left: 18px;
+}
+
 .redes-sociais {
   position: absolute;
 
