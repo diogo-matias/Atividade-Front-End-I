@@ -1,3 +1,2 @@
 # Atividade-Front-End-I
-
-<img src="../image/preview_1.png"/>
+<img class="foto" src="./images/eu.jpg" alt="minha_foto" />
