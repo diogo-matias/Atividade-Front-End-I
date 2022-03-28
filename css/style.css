@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+/* font-family: 'Oswald', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/fundo.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  color: rgb(255, 255, 255);
+  font-family: arial;
+}
+
+.left {
+  background: linear-gradient(45deg, rgb(139, 139, 255), rgb(128, 96, 255));
+  box-shadow: 0 4px 20px rgba(139, 160, 255, 0.5);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  width: 300px;
+  padding: 50px 30px;
+  gap: 5px;
+}
+
+.nome {
+  margin-top: 15px;
+}
+
+.foto {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 30px;
+}
+.left > a {
+  text-decoration: none;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 125%;
+}
+
+.left > a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(45, 45, 230);
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 125%;
+}
+
+.email-left {
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+}
+
+.email-left > p > a {
+  color: white;
+  text-decoration: none;
+}
+
+.direita {
+  position: absolute;
+  margin-left: 400px;
+  margin-right: 200px;
+
+  text-align: justify;
+}
+
+.nome-titulo {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: -3px;
+  font-size: 70px;
+  font-weight: 700;
+
+  margin-top: 100px;
+}
+
+span {
+  color: rgb(139, 139, 255);
+}
+
+.subtitulo {
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: -15px;
+}
+
+.texto-principal {
+  margin-top: 50px;
+}
+
+.texto-principal-topico {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.redes-sociais {
+  position: absolute;
+
+  display: flex;
+  bottom: 80px;
+  left: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 350px;
+  height: 60px;
+
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  height: 40px;
+  filter: brightness(0);
+}
