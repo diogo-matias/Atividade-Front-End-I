@@ -1,3 +1,3 @@
 # Atividade-Front-End-I
 
-<img src="./image/preview_1.png"/>
+<img src="../image/preview_1.png"/>
